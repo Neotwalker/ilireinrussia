@@ -1,0 +1,46 @@
+
+
+/* Start:/local/templates/iliveinrussia/styles.css?1711911691786*/
+.about_jury-item {
+    flex: 0 0 350px;
+}
+a.alphabet-list_head-share-dzen:before {
+    background-image: url(/contest/yandex.png);
+}
+.text {
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+@media screen and (min-width: 769px){
+	.about_jury-list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 10px;
+	}
+	.about_jury-item_img {
+		height: 500px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	.article-header_back a.article-header_back:nth-child(2) {
+		display: block;
+	}
+	.article-header_inner {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 7px;
+	}
+	.article-header_social {
+		margin: 0px 10px 0px 0px;
+	}
+	a.alphabet-list_head-share-dzen:before {
+		background-image: url(/contest/yandex.png);
+		background-size: 80%;
+		background-position: center;
+	}
+}
+
+/* End */
+/* /local/templates/iliveinrussia/styles.css?1711911691786 */

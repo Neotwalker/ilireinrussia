@@ -1,0 +1,120 @@
+
+
+/* Start:/local/templates/iliveinrussia/components/bitrix/search.tags.cloud/.default/style.css?1666425176231*/
+button.article-search_tag,
+.search-tags-chain button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.search-tags-chain {
+    display: flex;
+}
+.search-tags-chain button {
+    padding: 0;
+}
+
+/* End */
+
+
+/* Start:/local/templates/iliveinrussia/css/popover.css?16664557723147*/
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1070;
+    display: block;
+    max-width: 50%;
+    font-size: .875rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+}
+
+.fade { transition: opacity .15s linear; }
+
+.bs-popover-auto[data-popper-placement^=top]>.popover-arrow, .bs-popover-top>.popover-arrow { bottom: calc(-0.5rem - 1px); }
+.bs-popover-auto[data-popper-placement^=left]>.popover-arrow, .bs-popover-start>.popover-arrow { right: calc(-0.5rem - 1px); }
+.bs-popover-auto[data-popper-placement^=right]>.popover-arrow, .bs-popover-end>.popover-arrow { left: calc(-0.5rem - 1px); }
+.bs-popover-auto[data-popper-placement^=bottom]>.popover-arrow, .bs-popover-bottom>.popover-arrow { top: calc(-0.5rem - 1px); }
+
+.popover .popover-arrow {
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 0.5rem;
+}
+
+
+.bs-popover-auto[data-popper-placement^=top]>.popover-arrow::before, .bs-popover-bottom>.popover-arrow::before {
+    bottom: 0;
+    border-width: 0.5rem 0.5rem 0;
+    border-top-color: rgba(0,0,0,.25);
+}
+.bs-popover-auto[data-popper-placement^=top]>.popover-arrow::after, .bs-popover-end>.popover-arrow::after {
+    bottom: 1px;
+    border-width: 0.5rem 0.5rem 0;
+    border-top-color: #fff;
+}
+
+.bs-popover-auto[data-popper-placement^=left]>.popover-arrow::before, .bs-popover-bottom>.popover-arrow::before {
+    right: 0;
+    border-width: 0.5rem 0 0.5rem 0.5rem;
+    border-left-color: rgba(0,0,0,.25);
+}
+.bs-popover-auto[data-popper-placement^=left]>.popover-arrow::after, .bs-popover-end>.popover-arrow::after {
+    right: 1px;
+    border-width: 0.5rem 0 0.5rem 0.5rem;
+    border-left-color: #fff;
+}
+
+.bs-popover-auto[data-popper-placement^=right]>.popover-arrow::before, .bs-popover-bottom>.popover-arrow::before {
+    left: 0;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: rgba(0,0,0,.25);
+}
+.bs-popover-auto[data-popper-placement^=right]>.popover-arrow::after, .bs-popover-end>.popover-arrow::after {
+    left: 1px;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: #fff;
+}
+
+.bs-popover-auto[data-popper-placement^=bottom]>.popover-arrow::before, .bs-popover-bottom>.popover-arrow::before {
+    top: 0;
+    border-width: 0 0.5rem 0.5rem 0.5rem;
+    border-bottom-color: rgba(0,0,0,.25);
+}
+.bs-popover-auto[data-popper-placement^=bottom]>.popover-arrow::after, .bs-popover-bottom>.popover-arrow::after {
+    top: 1px;
+    border-width: 0 0.5rem 0.5rem 0.5rem;
+    border-bottom-color: #fff;
+}
+.popover .popover-arrow::after, .popover .popover-arrow::before {
+    position: absolute;
+    display: block;
+    content: "";
+    border-color: transparent;
+    border-style: solid;
+}
+.popover-header {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    font-size: 1rem;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+.popover-body {
+    padding: 1rem 1rem;
+    color: #212529;
+}
+
+@media screen and (max-width: 767px) {
+    .popover { max-width: 90%; }
+}
+
+/* End */
+/* /local/templates/iliveinrussia/components/bitrix/search.tags.cloud/.default/style.css?1666425176231 */
+/* /local/templates/iliveinrussia/css/popover.css?16664557723147 */
